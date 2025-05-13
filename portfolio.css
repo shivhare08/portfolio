@@ -26,6 +26,13 @@
     height:3rem;
 }
 
+.one{
+    width: 28%;
+}
+.two{
+    width: 28%;
+}
+
 .details .one:hover{
     background-color: white!important;
     color: black!important;
@@ -36,4 +43,14 @@
     background-color: black!important;
     color: white!important;
     border: 1px solid rgba(75, 74, 74, 0.419);
+}
+
+
+@media(max-width:991px){
+    .one{
+        width: 42%;
+    }
+    .two{
+        width: 42%;
+    }
 }
