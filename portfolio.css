@@ -1,0 +1,39 @@
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.nav a{
+    font-size: 1.3rem;
+    color: rgb(75, 74, 74);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav a:hover{
+    color:black;
+    scale: 1.1;
+    transition: 0.5s;
+    
+}
+
+.details h3{
+    color: rgb(75, 74, 74);
+    font-weight:600;
+}
+
+.details button{
+    height:3rem;
+}
+
+.details .one:hover{
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid rgba(75, 74, 74, 0.419);
+}
+
+.details .two:hover{
+    background-color: black!important;
+    color: white!important;
+    border: 1px solid rgba(75, 74, 74, 0.419);
+}
