@@ -4,13 +4,13 @@
 }
 
 
-.nav a{
-    font-size: 1.3rem;
+.navbar a{
+    font-size: 1.5rem;
     color: rgb(75, 74, 74);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.nav a:hover{
+.navbar a:hover{
     color:black;
     scale: 1.1;
     transition: 0.5s;
