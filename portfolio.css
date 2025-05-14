@@ -91,7 +91,13 @@
     }
     .info{
         text-align: center;
-        font-size: 14px;
     }
 }
 
+
+
+@media(max-width:767px){
+    .info h4{
+        font-size: 12px;
+    }
+}
