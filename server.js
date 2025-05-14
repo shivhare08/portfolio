@@ -26,11 +26,10 @@ const userModel = mongoose.model('User_Data',userSchema)
 
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'index.html'))
-    //res.send("dfhj")
 })
 
 
-app.post('/post',async (req,res)=>{
+app.post("/postdata",async (req,res)=>{
     const {name , email , message} = req.body;
     const user = new userModel({
         name,
