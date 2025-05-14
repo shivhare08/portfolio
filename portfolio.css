@@ -50,11 +50,14 @@
     font-size: 3rem;
 }
 
+.about{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .about p{
     font-size: 1.3rem;
     color: rgb(57, 56, 56);
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .abt{
