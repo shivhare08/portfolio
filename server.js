@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const path = require('path');
-const { type } = require('os');
 const port = 1234
 
 const app = express();
@@ -38,8 +37,6 @@ app.post("/postdata",async (req,res)=>{
     })
    
     await datasave.save();
-
-    
     res.redirect('/')
 })
 
