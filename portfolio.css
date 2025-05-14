@@ -45,6 +45,37 @@
     border: 1px solid rgba(75, 74, 74, 0.419);
 }
 
+.im{
+    color: black;
+    font-size: 3rem;
+}
+
+.about p{
+    font-size: 1.3rem;
+    color: rgb(57, 56, 56);
+}
+
+.abt{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size:1.6rem!important;
+}
+
+
+
+/* details */
+
+.contact-details h4{
+    color: rgba(42, 42, 42, 0.91);
+}
+
+/* message */
+.box{
+    background-color: rgb(255, 255, 255);
+    /* width: 300px; */
+    height: 370px;
+    border-radius: 10px;
+}
 
 @media(max-width:991px){
     .one{
@@ -53,4 +84,13 @@
     .two{
         width: 42%;
     }
+
+    .contact-details{
+        display: flex;
+        justify-content: center;
+    }
+    .info{
+        text-align: center;
+    }
 }
+
