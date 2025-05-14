@@ -39,7 +39,7 @@ app.post('/post',async (req,res)=>{
     })
 
     await user.save();
-    res.send("data send successfully")
+    res.redirect('/')
 })
 
 
