@@ -31,13 +31,15 @@ app.get('/',(req,res)=>{
 
 app.post("/postdata",async (req,res)=>{
     const {name , email , message} = req.body;
-    const user = new userModel({
+    const datasave = new userModel({
         name,
         email,
         message
     })
+   
+    await datasave.save();
 
-    await user.save();
+    
     res.redirect('/')
 })
 
